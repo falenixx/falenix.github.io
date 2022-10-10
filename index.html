@@ -11,12 +11,17 @@
     <!-- Link -->
     <link rel="stylesheet" href="style.css" />
     <title>This is Mukasafa’s Site</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <!-- Open Navbar -->
-    <nav class="shadow-lg navbar navbar-expand-lg navbar-dark" style="background-color: crimson; z-index: 1">
+    <nav class="shadow-lg navbar navbar-expand-lg navbar-dark" style="background-color: #0d6efd; z-index: 1">
       <div class="container">
         <a class="navbar-brand" href="#">MUKASAFA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,15 +60,13 @@
     <!-- Close Navbar -->
     <!-- Open Jumbotron -->
     <section class="jumbotron">
-      <img class="img-fluid" src="gambar/Fale.png" alt="Muhammad Falah a.k.a Fale" />
+      <img class="img-fluid" src="gambar/Profile Fale.png" alt="Muhammad Falah a.k.a Fale" />
       <h1 class="display-4">Muhammad Falah</h1>
       <p class="lead">Creative Worker</p>
-      <hr class="my-4" />
-      <p>
-        <a class="emailaku" href="mailto: muhammadfalah80@gmail.com">muhammadfalah80@gmail.com</a>
-      </p>
-      <a class="btn btn-primary btn-lg" href="#about" role="button">About Me</a>
-      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 325" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+      <p><a class="emailaku" href="mailto: muhammadfalah80@gmail.com">muhammadfalah80@gmail.com</a></p>
+
+      <!-- <a class="btn btn-primary btn-lg" href="#about" role="button">About Me</a> -->
+      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
         <style>
           .path-0 {
             animation: pathAnim-0 4s;
@@ -73,107 +76,42 @@
           @keyframes pathAnim-0 {
             0% {
               d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
+                "M 0,600 C 0,600 0,300 0,300 C 98.01913875598083,363.4162679425838 196.03827751196167,426.8325358851675 285,402 C 373.96172248803833,377.1674641148325 453.8660287081341,264.0861244019138 545,260 C 636.1339712918659,255.91387559808615 738.4976076555023,360.82296650717706 839,362 C 939.5023923444977,363.17703349282294 1038.1435406698565,260.622009569378 1138,233 C 1237.8564593301435,205.377990430622 1338.9282296650717,252.688995215311 1440,300 C 1440,300 1440,600 1440,600 Z"
               );
             }
             25% {
               d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 133.96428571428572,272.5 267.92857142857144,295 388,289 C 508.07142857142856,283 614.2499999999999,248.5 724,242 C 833.7500000000001,235.5 947.0714285714287,257 1067,263 C 1186.9285714285713,269 1313.4642857142858,259.5 1440,250 C 1440,250 1440,500 1440,500 Z"
+                "M 0,600 C 0,600 0,300 0,300 C 116.18181818181816,353.09090909090907 232.36363636363632,406.18181818181813 323,406 C 413.6363636363637,405.81818181818187 478.72727272727286,352.3636363636364 579,347 C 679.2727272727271,341.6363636363636 814.7272727272727,384.3636363636363 899,378 C 983.2727272727273,371.6363636363637 1016.3636363636365,316.1818181818182 1098,295 C 1179.6363636363635,273.8181818181818 1309.8181818181818,286.9090909090909 1440,300 C 1440,300 1440,600 1440,600 Z"
               );
             }
             50% {
               d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 101.07142857142858,248.96428571428572 202.14285714285717,247.92857142857142 305,249 C 407.85714285714283,250.07142857142858 512.5,253.25 652,235 C 791.5,216.75 965.8571428571429,177.07142857142856 1103,176 C 1240.142857142857,174.92857142857144 1340.0714285714284,212.46428571428572 1440,250 C 1440,250 1440,500 1440,500 Z"
+                "M 0,600 C 0,600 0,300 0,300 C 67.45454545454547,269.5023923444976 134.90909090909093,239.00478468899524 247,271 C 359.09090909090907,302.99521531100476 515.8181818181818,397.48325358851673 621,393 C 726.1818181818182,388.51674641148327 779.8181818181819,285.06220095693783 873,272 C 966.1818181818181,258.93779904306217 1098.9090909090908,336.2679425837321 1200,356 C 1301.0909090909092,375.7320574162679 1370.5454545454545,337.86602870813397 1440,300 C 1440,300 1440,600 1440,600 Z"
               );
             }
             75% {
               d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 139.03571428571428,228.92857142857144 278.07142857142856,207.85714285714286 404,225 C 529.9285714285714,242.14285714285714 642.75,297.5 765,291 C 887.25,284.5 1018.9285714285716,216.14285714285714 1133,199 C 1247.0714285714284,181.85714285714286 1343.5357142857142,215.92857142857144 1440,250 C 1440,250 1440,500 1440,500 Z"
+                "M 0,600 C 0,600 0,300 0,300 C 78.93779904306217,312.91866028708137 157.87559808612434,325.8373205741627 274,293 C 390.12440191387566,260.1626794258373 543.4354066985646,181.56937799043064 626,202 C 708.5645933014354,222.43062200956936 720.3827751196172,341.88516746411483 812,350 C 903.6172248803828,358.11483253588517 1075.0334928229665,254.88995215311004 1193,228 C 1310.9665071770335,201.11004784688996 1375.4832535885166,250.555023923445 1440,300 C 1440,300 1440,600 1440,600 Z"
               );
             }
             100% {
               d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
+                "M 0,600 C 0,600 0,300 0,300 C 98.01913875598083,363.4162679425838 196.03827751196167,426.8325358851675 285,402 C 373.96172248803833,377.1674641148325 453.8660287081341,264.0861244019138 545,260 C 636.1339712918659,255.91387559808615 738.4976076555023,360.82296650717706 839,362 C 939.5023923444977,363.17703349282294 1038.1435406698565,260.622009569378 1138,233 C 1237.8564593301435,205.377990430622 1338.9282296650717,252.688995215311 1440,300 C 1440,300 1440,600 1440,600 Z"
               );
             }
           }
         </style>
         <path
-          d="M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
+          d="M 0,600 C 0,600 0,300 0,300 C 98.01913875598083,363.4162679425838 196.03827751196167,426.8325358851675 285,402 C 373.96172248803833,377.1674641148325 453.8660287081341,264.0861244019138 545,260 C 636.1339712918659,255.91387559808615 738.4976076555023,360.82296650717706 839,362 C 939.5023923444977,363.17703349282294 1038.1435406698565,260.622009569378 1138,233 C 1237.8564593301435,205.377990430622 1338.9282296650717,252.688995215311 1440,300 C 1440,300 1440,600 1440,600 Z"
           stroke="none"
           stroke-width="0"
-          fill="#28132fff"
+          fill="#f7f3ee"
+          fill-opacity="1"
           class="transition-all duration-300 ease-in-out delay-150 path-0"
         ></path>
       </svg>
     </section>
     <!-- Close Jumbotron -->
-    <!-- open About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="tentangku">About Me</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>
-              “Halo, Perkenalkan saya Muhammad Falah atau lebih di kenal dengan panggilan Fale, passion saya di bidang Kreatif, dan saya pun berlatar belakang IT, karena sewaktu SMK saya mengambil Teknik Komputer & Jaringan, lalu melanjuti
-              Pendidikan S1 mengambil Program Studi DKV, di Tugas Akhir saya membuat sebuah Film Pendek juga, karena saya senang membuat sebuah naskah cerita dan per-Film-an dan saya menjadi Sutradara di Project Tugas Akhir saya sendiri. ”
-              <br />
-              Saya memiliki beberapa pengalaman sebagai tim kreatif di beberapa perusahaan dan pernah magang di salah satu BUMN. Dalam pengalaman di perusahaan-perusahaan sebelumnya, saya bertanggung jawab untuk meng-handle kebutuhan
-              konten-konten berupa Design, Foto, Video, hingga motion graphic.
-            </p>
-          </div>
-          <img src="gambar/experience.png" alt="" />
-        </div>
-      </div>
-      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 325" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
-        <style>
-          .path-0 {
-            animation: pathAnim-0 4s;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-          }
-          @keyframes pathAnim-0 {
-            0% {
-              d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
-              );
-            }
-            25% {
-              d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 133.96428571428572,272.5 267.92857142857144,295 388,289 C 508.07142857142856,283 614.2499999999999,248.5 724,242 C 833.7500000000001,235.5 947.0714285714287,257 1067,263 C 1186.9285714285713,269 1313.4642857142858,259.5 1440,250 C 1440,250 1440,500 1440,500 Z"
-              );
-            }
-            50% {
-              d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 101.07142857142858,248.96428571428572 202.14285714285717,247.92857142857142 305,249 C 407.85714285714283,250.07142857142858 512.5,253.25 652,235 C 791.5,216.75 965.8571428571429,177.07142857142856 1103,176 C 1240.142857142857,174.92857142857144 1340.0714285714284,212.46428571428572 1440,250 C 1440,250 1440,500 1440,500 Z"
-              );
-            }
-            75% {
-              d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 139.03571428571428,228.92857142857144 278.07142857142856,207.85714285714286 404,225 C 529.9285714285714,242.14285714285714 642.75,297.5 765,291 C 887.25,284.5 1018.9285714285716,216.14285714285714 1133,199 C 1247.0714285714284,181.85714285714286 1343.5357142857142,215.92857142857144 1440,250 C 1440,250 1440,500 1440,500 Z"
-              );
-            }
-            100% {
-              d: path(
-                "M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
-              );
-            }
-          }
-        </style>
-        <path
-          d="M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
-          stroke="none"
-          stroke-width="0"
-          fill="#fcb900ff"
-          class="transition-all duration-300 ease-in-out delay-150 path-0"
-        ></path>
-      </svg>
-    </section>
-    <!-- close About -->
     <!-- Open Projects -->
     <section id="projects">
       <div class="container">
@@ -316,6 +254,73 @@
       </svg>
     </section>
     <!-- Close Projects -->
+    <!-- open About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="tentangku">About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>
+              “Halo, Perkenalkan saya Muhammad Falah atau lebih di kenal dengan panggilan Fale, passion saya di bidang Kreatif, dan saya pun berlatar belakang IT, karena sewaktu SMK saya mengambil Teknik Komputer & Jaringan, lalu melanjuti
+              Pendidikan S1 mengambil Program Studi DKV, di Tugas Akhir saya membuat sebuah Film Pendek juga, karena saya senang membuat sebuah naskah cerita dan per-Film-an dan saya menjadi Sutradara di Project Tugas Akhir saya sendiri. ”
+              <br />
+              Saya memiliki beberapa pengalaman sebagai tim kreatif di beberapa perusahaan dan pernah magang di salah satu BUMN. Dalam pengalaman di perusahaan-perusahaan sebelumnya, saya bertanggung jawab untuk meng-handle kebutuhan
+              konten-konten berupa Design, Foto, Video, hingga motion graphic.
+            </p>
+          </div>
+          <img src="gambar/experience.png" alt="" />
+        </div>
+      </div>
+      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 325" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,500 C 0,500 0,250 0,250 C 133.96428571428572,272.5 267.92857142857144,295 388,289 C 508.07142857142856,283 614.2499999999999,248.5 724,242 C 833.7500000000001,235.5 947.0714285714287,257 1067,263 C 1186.9285714285713,269 1313.4642857142858,259.5 1440,250 C 1440,250 1440,500 1440,500 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,500 C 0,500 0,250 0,250 C 101.07142857142858,248.96428571428572 202.14285714285717,247.92857142857142 305,249 C 407.85714285714283,250.07142857142858 512.5,253.25 652,235 C 791.5,216.75 965.8571428571429,177.07142857142856 1103,176 C 1240.142857142857,174.92857142857144 1340.0714285714284,212.46428571428572 1440,250 C 1440,250 1440,500 1440,500 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,500 C 0,500 0,250 0,250 C 139.03571428571428,228.92857142857144 278.07142857142856,207.85714285714286 404,225 C 529.9285714285714,242.14285714285714 642.75,297.5 765,291 C 887.25,284.5 1018.9285714285716,216.14285714285714 1133,199 C 1247.0714285714284,181.85714285714286 1343.5357142857142,215.92857142857144 1440,250 C 1440,250 1440,500 1440,500 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
+              );
+            }
+          }
+        </style>
+        <path
+          d="M 0,500 C 0,500 0,250 0,250 C 92.71428571428572,284.1428571428571 185.42857142857144,318.2857142857143 315,324 C 444.57142857142856,329.7142857142857 611,307 750,277 C 889,247.00000000000003 1000.5714285714287,209.71428571428575 1111,204 C 1221.4285714285713,198.28571428571425 1330.7142857142858,224.1428571428571 1440,250 C 1440,250 1440,500 1440,500 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#fcb900ff"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- close About -->
+
     <!-- Open Contact -->
     <section class="contact">
       <div class="container">
@@ -429,7 +434,7 @@
       };
     </script>
 
-    <audio autoplay="true" src="audio1.mp3"></audio>
+    <!-- <audio autoplay="true" src="audio1.mp3"></audio> -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>

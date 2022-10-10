@@ -4,9 +4,14 @@
   src: url(../fonts/Bebas-Neue-master/fonts/BebasNeue-Regular.woff) format("woff");
 }
 
+:root {
+  --gradient1: linear-gradient(91.3deg, rgb(107, 172, 233) 1.5%, rgb(255, 255, 255) 100.3%);
+  --gradient2: linear-gradient(174.2deg, rgba(240, 246, 238, 1) 67.4%, rgba(255, 244, 228, 1) 7.1%);
+}
+
 body {
   font: 18px/36px "BebasNeue", "Poppins", "Arial Narrow", arial, sans-serif;
-  min-height: 3000px;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -14,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  opacity: 80%;
+  opacity: 95%;
   min-height: auto;
   position: fixed;
   top: 0;
@@ -22,19 +27,48 @@ body {
 }
 
 .jumbotron {
-  color: aliceblue;
-  padding-top: 6rem;
-  background-color: rgb(226, 51, 86);
+  color: #0088ff;
+  padding-top: 4rem;
+  background-color: #ffffff;
+  background-image: var(--gradient1);
+  background-size: 300%;
   text-align: center;
+  animation: gradient-animation 3s infinite alternate;
+  font-family: "Fredoka One", cursive;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
 }
 
 .jumbotron > img {
-  width: 250px;
+  width: 30rem;
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(10deg) scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.jumbotron > img:hover {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .emailaku {
   text-decoration: none;
-  color: rgb(115, 255, 0);
+  color: #0d6efd;
+}
+
+.emailaku:hover {
+  color: #dc702d;
+  text-decoration: underline;
+  font-size: 105%;
 }
 
 #about {
@@ -64,7 +98,7 @@ body {
 }
 
 #projects {
-  background-color: #fcb900;
+  background-image: var(--gradient2);
 }
 
 .projectku {
