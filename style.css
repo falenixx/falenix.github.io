@@ -108,9 +108,103 @@ body {
   font-size: 50px;
   font-weight: 1000;
 }
+
+/* OPEN desain grafis section */
+.graphic-design {
+  position: relative;
+  background-color: #0d6efd;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.graphic-design::before {
+  content: "My";
+  position: absolute;
+  color: #fff;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  top: 20%;
+  left: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.graphic-design:hover::before {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+.graphic-design::after {
+  content: "Work";
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 80%;
+  left: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.graphic-design:hover::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+.dg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+.graphic-design:hover .dg {
+  top: 20px;
+  opacity: 1;
+}
+
+.dg-detail-button {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.graphic-design:hover .dg-detail-button {
+  opacity: 1;
+  bottom: 2%;
+}
+
+.card-img-top {
+  position: absolute;
+  top: 45%;
+  left: 53%;
+  transform: translate3d(-52%, -50%, 100px);
+  max-width: 250px;
+  transition: 0.5s;
+  rotate: -2deg;
+}
+
+.graphic-design:hover .card-img-top {
+  transform: translate3d(-50%, -38%, 100px) scale(1.2) rotate(2deg);
+}
+/* CLOSE desain grafis section */
+
 .card {
   margin-top: 2rem;
   margin-bottom: 10px;
+  background-color: #0d6efd;
 }
 
 .card a:hover {
