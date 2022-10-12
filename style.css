@@ -201,6 +201,314 @@ body {
 }
 /* CLOSE desain grafis section */
 
+/* open pop up section Desain */
+.modal-content {
+  position: relative;
+  align-items: center;
+  width: 1800px;
+  overflow: hidden !important;
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.gambar-desain-konten {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-desain-konten:hover {
+  width: 480px;
+}
+
+.gambar-desain-konten::before {
+  content: "Content Design";
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 77%;
+  right: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.gambar-desain-konten:hover::before {
+  right: 44%;
+  transform: translate(50%, 0);
+  opacity: 0.95;
+}
+
+.gambar-desain-produk {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-desain-produk:hover {
+  width: 480px;
+}
+
+.gambar-desain-produk::before {
+  content: "Product Design";
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 45%;
+  left: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gambar-desain-produk:hover::before {
+  left: 17%;
+  transform: translate(5%, 0);
+  opacity: 1;
+}
+
+.gambar-desain-lain {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-desain-lain:hover {
+  width: 480px;
+}
+
+.gambar-desain-lain::before {
+  content: "Other Design";
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 13%;
+  right: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.gambar-desain-lain:hover::before {
+  right: 40%;
+  transform: translate(50%, 0);
+  opacity: 0.95;
+}
+/* close pop up section Desain */
+
+/* open pop up section Foto */
+.modal-content {
+  position: relative;
+  align-items: center;
+  overflow: hidden !important;
+  padding: 1px !important;
+  margin: 0px;
+}
+
+.gambar-foto-produk {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-foto-produk:hover {
+  width: 480px;
+}
+
+.gambar-foto-produk::before {
+  content: "Product Photography";
+  position: absolute;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 80%;
+  right: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.gambar-foto-produk:hover::before {
+  right: 42%;
+  transform: translate(50%, 0);
+  opacity: 0.95;
+}
+
+.gambar-foto-kompani {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-foto-kompani:hover {
+  width: 480px;
+}
+
+.gambar-foto-kompani::before {
+  content: "Company Profile Photography";
+  position: absolute;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 56%;
+  left: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gambar-foto-kompani:hover::before {
+  left: 16%;
+  transform: translate(5%, 0);
+  opacity: 1;
+}
+
+.gambar-foto-acara {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-foto-acara:hover {
+  width: 480px;
+}
+
+.gambar-foto-acara::before {
+  content: "Event Documentation";
+  position: absolute;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 32%;
+  right: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gambar-foto-acara:hover::before {
+  right: 42%;
+  transform: translate(50%, 0);
+  opacity: 0.95;
+}
+
+.gambar-foto-keluarga {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-foto-keluarga:hover {
+  width: 480px;
+}
+
+.gambar-foto-keluarga::before {
+  content: "Wedding & Family Photography";
+  position: absolute;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 8%;
+  left: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gambar-foto-keluarga:hover::before {
+  left: 16%;
+  transform: translate(5%, 0);
+  opacity: 1;
+}
+
+/* close pop up section Foto */
+
+/* open  pop up section Motion */
+.modal-content {
+  position: relative;
+  align-items: center;
+  overflow: hidden !important;
+  padding: 1px !important;
+  margin: 0px;
+}
+
+.gambar-motion-full {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-motion-full:hover {
+  width: 480px;
+}
+
+.gambar-motion-full::before {
+  content: "Motion Full";
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 63%;
+  right: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.gambar-motion-full:hover::before {
+  right: 38%;
+  transform: translate(50%, 0);
+  opacity: 1;
+}
+
+.gambar-motion-video {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-motion-video:hover {
+  width: 480px;
+}
+
+.gambar-motion-video::before {
+  content: "Video with Motion";
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 17%;
+  left: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gambar-motion-video:hover::before {
+  left: 16%;
+  transform: translate(5%, 0);
+  opacity: 1;
+}
+/* close pop up section Motion */
+
+/* .gambar-desain-lain {
+  width: 460px;
+  transition: 0.3s;
+}
+
+.gambar-desain-lain:hover {
+  width: 480px;
+}
+
+.gambar-desain-lain::before {
+  content: "Other Design";
+  position: absolute;
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: 3px 3px 4px rgba(0, 7, 37, 0.342);
+  bottom: 13%;
+  right: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.gambar-desain-lain:hover::before {
+  right: 33%;
+  transform: translate(50%, 0);
+  opacity: 0.95;
+} */
+/* close pop up section Foto*/
+
 .card {
   margin-top: 2rem;
   margin-bottom: 10px;
